@@ -5,13 +5,18 @@ const theme = createTheme({
     palette: {
         primary: {
             main: colors.green,
+            contrastText: "white",
         },
         secondary: {
             main: colors.gold,
+            contrastText: "white",
         },
         background: {
             default: colors.softGreen,
             paper: colors.softYellow,
+        },
+        custom: {
+            red: colors.red,
         },
     },
     typography: {
@@ -21,11 +26,14 @@ const theme = createTheme({
         },
         h2: {
             fontSize: "1.75rem",
-            fontWeight: 600,
+            fontWeight: 500,
         },
         h3: {
-            fontSize: "1.5rem",
-            fontWeight: 600,
+            fontSize: "1.25rem",
+            fontWeight: 300,
+        },
+        h4: {
+            fontSize: "1.25rem",
         },
     },
 });
